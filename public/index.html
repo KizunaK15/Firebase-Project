@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP Firebase App</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+    // REPLACE WITH YOUR web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "MASUKKAN_API_KEY_ANDA_DI_SINI",
+        authDomain: "PROYEK-ANDA.firebaseapp.com",
+        databaseURL: "https://PROYEK-ANDA.firebaseio.com",
+        projectId: "PROYEK-ANDA",
+        storageBucket: "PROYEK-ANDA.appspot.com",
+        messagingSenderId: "NOMOR_SENDER_ID_ANDA",
+        appId: "APP_ID_ANDA"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+</script>
+<script src="app.js" defer></script>
+
+</head>
+<body>
+    <h1>ESP32 Firebase Web App</h1>
+    
+    <p>Reading temp: <span id="reading-temp"></span> &deg;C</p> 
+    
+    <p>Reading humid: <span id="reading-humid"></span> %</p>
+
+</body>
+</html>
