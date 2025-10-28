@@ -1,4 +1,4 @@
-# ESP32 Firebase Web App
+# ESP8266/ESP32 Firebase Web App
 
 This project is a simple web application that displays temperature and humidity data sent from an ESP32 device. The data is stored in and read from Google Firebase Realtime Database.
 
@@ -9,7 +9,7 @@ This project is a simple web application that displays temperature and humidity 
 
 ## How it Works
 
-The ESP32 device reads data from a DHT11 sensor and sends it to the Firebase Realtime Database. This web application then listens for changes in the database and updates the displayed values in real-time.
+The ESP8266/ESP32 device reads data from a DHT11 sensor and sends it to the Firebase Realtime Database. This web application then listens for changes in the database and updates the displayed values in real-time.
 
 ## Configuration Steps
 
