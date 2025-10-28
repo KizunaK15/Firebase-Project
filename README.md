@@ -94,4 +94,4 @@ firebase deploy --only hosting
 ```
 
 After deployment, your web app will be available at the URL provided by Firebase.
-### [➡️ Try the Live Version Here! ⬅️](https://trial-data-f9065.web.app)
+### [➡️ Try the Live Version Here! ⬅️]([https://dht11-firestore-1c22b.web.app])
